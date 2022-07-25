@@ -1,0 +1,69 @@
+#logo img {
+  width: 12.8125rem;
+}
+
+.big-image {
+  clip-path: polygon(100% 0, 100% 100%, 15% 80%, 0 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/img/mimi-thian-lp1AKIUV3yo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* opacity: 0.9; */
+}
+.polygon {
+  clip-path: polygon(25% 30%, 50% 10%, 75% 30%, 75% 70%, 50% 90%, 25% 70%);
+}
+.paraph {
+  color: #666666;
+}
+
+.our-company-img {
+  clip-path: polygon(90% 10%, 90% 90%, 60% 90%, 10% 80%, 10% 10%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/img/docusign-7RWBSYA9Rro-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 12;
+}
+.bg-dark-blue {
+  background: #14133b;
+}
+
+.discover {
+  background-image: url("../assets/img/Layer-33.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.dgtl-agency {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/img/antenna-cw-cj_nFa14-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.price-card {
+  clip-path: polygon(100% 0, 100% 100%, 0 95%, 0 0);
+}
+
+.tag-name {
+  clip-path: polygon(100% 90%, 100% 100%, 0 100%, 0 70%);
+  /* background-color: #666666; */
+  z-index: 10;
+}
+
+.join {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../assets/img/Layer-27.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

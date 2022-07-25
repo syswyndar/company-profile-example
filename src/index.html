@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Company</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="./styles/style.css" rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+
+  <!-- feather icon -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <!-- Home -->
+    <section class="w-screen relative h-screen">
+      <!-- navbar -->
+      <div class="absolute top-0 left-0 w-screen z-20">
+        <nav class="nav flex justify-between items-center px-20 py-2">
+          <div id="logo">
+            <img src="./assets/img/Logo.png" alt="Logo" class="" />
+          </div>
+          <div class="nav-link">
+            <ul
+              class="flex gap-5 text-white items-center font-light text-inter"
+            >
+              <li class="cursor-pointer">
+                <span
+                  class="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 ease-out duration-300"
+                >
+                  Home
+                </span>
+              </li>
+              <li
+                class="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 cursor-pointer ease-out duration-300"
+              >
+                <span>Feature</span>
+              </li>
+              <li
+                class="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 cursor-pointer ease-out duration-300"
+              >
+                <span>About Us</span>
+              </li>
+              <li
+                class="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 cursor-pointer ease-out duration-300"
+              >
+                <span>Pricing</span>
+              </li>
+              <li
+                class="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 cursor-pointer ease-out duration-300"
+              >
+                <span>Our Team</span>
+              </li>
+              <li
+                class="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 cursor-pointer ease-out duration-300"
+              >
+                <span>Faq</span>
+              </li>
+              <li>
+                <button
+                  class="main-bg text-white px-5 py-2 rounded-md font-bold text-sm"
+                >
+                  Join
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar -->
+
+      <div class="absolute left-0 top-0 h-full z-10">
+        <img src="./assets//img/Bg.png" alt="Bg" class="h-full" />
+      </div>
+      <div class="absolute z-50 top-48 left-44 w-1/3 flex flex-col gap-5">
+        <p
+          class="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-700"
+        >
+          #CONSULTING BUSINESS
+        </p>
+        <h1 class="text-5xl font-bold text-white">
+          We Provide IT & Business Solutions
+        </h1>
+        <p class="text-gray-400 font-light text-inter">
+          Aliquam malesuada bibendum arcu vitae elementum curabitur vitae ven.
+          Pellentesque pulvinar elementum habitant morbi tristique. urabitur
+          vitae ven. Pellentesque pulvinar elementum habitant
+        </p>
+        <div class="mt-3">
+          <button class="main-bg text-xs py-4 px-5 rounded-md text-white flex items-center gap-3">
+            READ MORE
+            <span>
+              <img src="./assets/icons/arrow.png" class="w-3 h-3" alt="">
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="w-full top-0 left-0 absolut bg-black h-full big-image"></div>
+    </section>
+    <!-- Home -->
+
+    <!-- feature -->
+    <section
+      class="w-screen h-screen flex flex-col justify-center items-center"
+    >
+      <div class="flex flex-col items-center w-screen gap-3">
+        <p
+          class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 text-xs"
+        >
+          CARE FEATURE
+        </p>
+        <h1 class="text-4xl font-bold w-1/3 text-center">
+          Provide Awesome Service With Our Tools
+        </h1>
+      </div>
+      <div class="w-9/12 grid grid-cols-4 gap-4 mt-8">
+        <!-- card -->
+        <div class="w-full h-96 hover:shadow-lg ease-out duration-500">
+          <div class="flex justify-center items-center">
+            <img
+              src="./assets/icons/Icon-coffe.png"
+              class="w-44 h-50"
+              alt="coffee-cup"
+            />
+          </div>
+          <div class="flex flex-col items-center p-5 gap-3">
+            <h4 class="font-bold">Have a Coffee</h4>
+            <p class="font-light text-sm text-center paraph">Lorem ipsum dolor sit amecon sectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-full h-96 hover:shadow-lg ease-out duration-500">
+          <div class="flex justify-center items-center">
+            <img
+              src="./assets/icons/Icon-consult.png"
+              class="w-44 h-50"
+              alt="coffee-cup"
+            />
+          </div>
+          <div class="flex flex-col items-center p-5 gap-3">
+            <h4 class="font-bold">Meet With Us</h4>
+            <p class="font-light text-sm text-center paraph">Lorem ipsum dolor sit amecon sectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-full h-96 hover:shadow-lg ease-out duration-500">
+          <div class="flex justify-center items-center">
+            <img
+              src="./assets/icons/Icon-dashboard.png"
+              class="w-44 h-50"
+              alt="coffee-cup"
+            />
+          </div>
+          <div class="flex flex-col items-center p-5 gap-3">
+            <h4 class="font-bold">Data Analysis</h4>
+            <p class="font-light text-sm text-center paraph">Lorem ipsum dolor sit amecon sectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="w-full h-96 hover:shadow-lg ease-out duration-500">
+          <div class="flex justify-center items-center">
+            <img
+              src="./assets/icons/Icon.png"
+              class="w-44 h-50"
+              alt="coffee-cup"
+            />
+          </div>
+          <div class="flex flex-col items-center p-5 gap-3">
+            <h4 class="font-bold">Award Winner</h4>
+            <p class="font-light text-sm text-center paraph">Lorem ipsum dolor sit amecon sectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+    </section>
+    <!-- feature -->
+
+    <!-- About Company -->
+    <section class="w-screen h-screen flex gap-10 justify-center items-center">
+      <div class="w-1/3 h-3/6 relative">
+        <div class="absolute w-full h-5/6 main-bg flex flex-col items-center rounded-md"></div>
+        <div class="our-company-img w-full h-full"></div>
+        <div class="absolute bottom-5 left-20 z-20 w-2/6 shadow-lg">
+          <img src="./assets/img/Layer-26.png" alt="">
+        </div>
+      </div>
+      <div class="w-1/3 h-3/6">
+        <p class="text-xs text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"># ABOUT COMPANY</p>
+        <h1 class="text-5xl font-bold my-4 leading-tight">24 year of Experience in IT Solutions</h1>
+        <p class="paraph text-inter font-light text-md">We craft unique digital experiences. With more than 7 years
+          of expertise we design We craft unique digital experiences.
+          With more than 7 years of expertise we design. We craft
+          unique digital experiences. </p>
+          <div class="w-full flex gap-2 my-5">
+            <div class="w-1/2 p-3">
+              <h3 class="text-4xl font-bold">24 Year Experience</h3>
+            </div>
+            <div class="w-1/2 flex flex-col gap-3">
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-4 h-4 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="">Product Engineering</p>
+              </div>
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-4 h-4 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="">Digital Service</p>
+              </div>
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-4 h-4 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="">IT Consultancy</p>
+              </div>
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-4 h-4 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="">Data Analysis</p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="w-screen h-screen bg-dark-blue flex justify-center items-center gap-20">
+      <div class="w-1/3 h-1/2 flex flex-col gap-8 text-white">
+        <div class="w-full flex flex-col gap-5">
+          <h1 class="text-5xl font-bold">If You Have the idea We will Find the Right Can Respond </h1>
+          <p class="text-gray-400 font-light leading-loose text-inter">We craft unique digital experiences. With more than 7 years of expertise we design We craft unique digital
+            experiences. With more than 7 years of expertise we
+            we design We craft unique digital .</p>
+        </div>
+        <div>
+          <button class="main-bg text-xs py-4 px-5 rounded-md text-white flex items-center gap-3 tracking-wider font-bold">
+            READ MORE
+            <span>
+              <img src="./assets/icons/arrow.png" class="w-3 h-3" alt="">
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="w-1/3 h-1/2">
+        <img src="./assets/img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="w-full h-full object-cover rounded-md" alt="">
+      </div>
+    </section>
+
+    <!-- Discover Our Company -->
+    <section class="w-screen h-screen flex flex-col gap-8 discover justify-center items-center">
+      <div class="w-1/3 flex flex-col justify-center items-center gap-3">
+        <p class="text-xs text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"># DISCOVER OUR COMPANY</p>
+        <h1 class="text-4xl font-medium text-center">Aspects Of Professional IT Services</h1>
+      </div>
+      <div class="grid grid-cols-2 gap-10 w-7/12 items-center z-50">
+        <div class="w-full px-6 py-6 flex items-center gap-8 shadow-lg">
+          <div class="w-1/6 bg-gray-200 flex justify-center items-center py-3 px-3 rounded-md">
+            <img src="./assets/icons/icon-3box.png" alt="">
+          </div>
+          <div class="w-3/4">
+            <h5 class="font-medium mb-1">Analytic Solution</h5>
+            <p class="text-xs paraph text-inter">We craft unique digital experiences. With more than 7 years of expertise we design </p>
+          </div>
+        </div>
+        <div class="w-full px-6 py-6 flex items-center gap-8 shadow-lg bg-white">
+          <div class="w-1/6 bg-gray-200 flex justify-center items-center py-3 px-3 rounded-md">
+            <img src="./assets/icons/icon-analytic.png" alt="">
+          </div>
+          <div class="w-3/4">
+            <h5 class="font-medium mb-1">Analytic Solution</h5>
+            <p class="text-xs paraph text-inter">We craft unique digital experiences. With more than 7 years of expertise we design </p>
+          </div>
+        </div>
+        <div class="w-full px-6 py-6 flex items-center gap-8 shadow-lg bg-white">
+          <div class="w-1/6 bg-gray-200 flex justify-center items-center py-3 px-3 rounded-md">
+            <img src="./assets/icons/icon-business-service.png" alt="">
+          </div>
+          <div class="w-3/4">
+            <h5 class="font-medium mb-1">Business Collaboration</h5>
+            <p class="text-xs paraph text-inter">We craft unique digital experiences. With more than 7 years of expertise we design </p>
+          </div>
+        </div>
+        <div class="w-full px-6 py-6 flex items-center gap-8 shadow-lg bg-white">
+          <div class="w-1/6 bg-gray-200 flex justify-center items-center py-3 px-3 rounded-md">
+            <img src="./assets/icons/icon-engineering-service.png" alt="">
+          </div>
+          <div class="w-3/4">
+            <h5 class="font-medium mb-1">Engineering & Services</h5>
+            <p class="text-xs paraph text-inter">We craft unique digital experiences. With more than 7 years of expertise we design </p>
+          </div>
+        </div>
+        <div class="w-full px-6 py-6 flex items-center gap-8 shadow-lg bg-white">
+          <div class="w-1/6 bg-gray-200 flex justify-center items-center py-3 px-3 rounded-md">
+            <img src="./assets/icons/icon-3box.png" alt="">
+          </div>
+          <div class="w-3/4">
+            <h5 class="font-medium mb-1">Creative Minds</h5>
+            <p class="text-xs paraph text-inter">We craft unique digital experiences. With more than 7 years of expertise we design </p>
+          </div>
+        </div>
+        <div class="w-full px-6 py-6 flex items-center gap-8 shadow-lg bg-white">
+          <div class="w-1/6 bg-gray-200 flex justify-center items-center py-3 px-3 rounded-md">
+            <img src="./assets/icons/icon-business-service.png" alt="">
+          </div>
+          <div class="w-3/4">
+            <h5 class="font-medium mb-1">Revenue Generations</h5>
+            <p class="text-xs paraph text-inter">We craft unique digital experiences. With more than 7 years of expertise we design </p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <p class="text-md font-normal">Success Your Technology. <span class="cursor-pointer tracking-wide text-md font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">Take the challenge!</span></p>
+      </div>
+    </section>
+    <!-- Discover Our Company -->
+
+    <!-- Pricing -->
+    <section class="w-screen h-screen dgtl-agency flex justify-center items-center">
+      <div class="w-2/3 h-2/3 flex">
+        <div class="w-1/4 h-full bg-white price-card rounded-sm">
+          <img class="w-full h-1/3 object-cover" src="./assets/img/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="">
+          <div class="py-3 px-10 font-medium">
+            <h4 class="text-2xl">Basic</h4>
+            <div class="flex items-start my-1">
+              <span class="text-xs font-light">US$</span>
+              <span class="text-md">216.99</span>
+            </div>
+            <div class="flex flex-col gap-5 items-center mt-6 mb-2">
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-3 h-3 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="text-xs font-light">Support at $25 / hour</p>
+              </div>
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-3 h-3 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="text-xs font-light">Social Media Package</p>
+              </div>
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-3 h-3 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="text-xs font-light">Unlimited Fonts</p>
+              </div>
+              <div class="w-full flex items-center gap-2.5">
+                <div class="main-bg w-3 h-3 flex justify-center items-center rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <p class="text-xs font-light">Free Fixes & Updates</p>
+              </div>
+            </div>
+            <div class="mt-7">
+              <button class="main-bg text-xs py-3 px-4 font-medium rounded-md text-white flex items-center gap-3">
+                READ MORE
+                <span>
+                  <img src="./assets/icons/arrow.png" class="w-3 h-3" alt="">
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-3/4 h-full flex justify-center items-center">
+          <div class="w-full h-5/6 bg-[#14133B] pt-10 pb-5 px-10 rounded-sm">
+            <div class="h-full w-full flex flex-col gap-5">
+              <div class="flex gap-3 w-full h-5/6">
+                <div class="w-1/2 h-full text-white">
+                  <div class="w-full flex flex-col gap-5">
+                    <h1 class="text-4xl font-bold mb-5">Digital Agency
+                      Excellence Good
+                      Services.</h1>
+                    <p class="text-gray-400 font-light text-inter text-sm">The Two golden rules professional graphic designer don't want you to know about.</p>
+                  </div>
+                  <div class="mt-6">
+                    <button class="main-bg text-xs py-3 px-4 rounded-md text-white flex items-center gap-3 font-medium">
+                      READ MORE
+                      <span>
+                        <img src="./assets/icons/arrow.png" class="w-3 h-3" alt="">
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="w-1/2 h-full">
+                  <img src="./assets/img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="w-full h-full object-cover rounded-sm" alt="">
+                </div>
+              </div>
+              <div class="grid grid-cols-4 gap-5 w-full h-1/6">
+                <div class="h-full flex justify-center items-center">
+                  <img src="./assets/img/chainalysis.png" class="grayscale hover:grayscale-0 ease-out duration-500" alt="">
+                </div>
+                <div class="h-full flex justify-center items-center">
+                  <img src="./assets/img/FanRuan.png" class="grayscale hover:grayscale-0 ease-out duration-500" alt="">
+                </div>
+                <div class="h-full flex justify-center items-center">
+                  <img src="./assets/img/fivetrans.png" class="grayscale hover:grayscale-0 ease-out duration-500" alt="">
+                </div>
+                <div class="h-full flex justify-center items-center">
+                  <img src="./assets/img/Icertis.png" class="grayscale hover:grayscale-0 ease-out duration-500" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+
+    <!-- Our Team -->
+    <section class="w-screen h-screen flex flex-col justify-center items-center gap-10">
+      <div class="h-4/6 w-8/12 gap-8 flex justify-center items-center flex-col py-5">
+        <div class="w-3/6 flex flex-col justify-center items-center gap-3">
+          <p class="text-xs text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"># Our Team</p>
+          <h1 class="text-4xl font-medium text-center">Meet Our Experience Team Member</h1>
+        </div>
+        <div class="grid grid-cols-3 gap-10 w-full h-full items-center z-50">
+          <!-- card -->
+          <div class="w-full h-full flex items-center gap-8 shadow-lg">
+            <div class="w-full h-full relative flex justify-center">
+              <div class="absolute top-0 left-0 w-full h-full">
+                <img src="./assets/img/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" class="w-full h-full object-cover rounded-sm" alt="">
+              </div>
+              <div class="absolute -bottom-7 py-2 px-6 bg-white flex items-center flex-col rounded-sm shadow-md">
+                <p class="text-sm">Kimberly Dunn</p>
+                <p class="text-xs font-light text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">Senior Marketer</p>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <!-- card -->
+          <div class="w-full h-full flex items-center gap-8 shadow-lg">
+            <div class="w-full h-full relative flex justify-center">
+              <div class="absolute top-0 left-0 w-full h-full">
+                <img src="./assets/img/dan-cornilov-ehUYU820lcA-unsplash.jpg" class="w-full h-full object-cover rounded-sm" alt="">
+              </div>
+              <div class="absolute -bottom-7 py-2 px-6 bg-white flex items-center flex-col rounded-sm shadow-md">
+                <p class="text-sm">Peter Bross</p>
+                <p class="text-xs font-light text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">Senior Marketer</p>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <!-- card -->
+          <div class="w-full h-full flex items-center gap-8 shadow-lg">
+            <div class="w-full h-full relative flex justify-center">
+              <div class="absolute top-0 left-0 w-full h-full">
+                <img src="./assets/img/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg" class="w-full h-full object-cover rounded-sm" alt="">
+              </div>
+              <div class="absolute -bottom-7 py-2 px-6 bg-white flex items-center flex-col rounded-sm shadow-md">
+                <p class="text-sm">Alicia Gordon</p>
+                <p class="text-xs font-light text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">Senior Marketer</p>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          
+        </div>
+      </div>
+      <div class="w-8/12 h-1/6 grid grid-cols-2 gap-5">
+        <!-- 1 -->
+        <div class="flex flex-col w-11/12">
+          <div class="flex justify-between mb-1">
+            <span class="text-base font-medium">Marketing Online</span>
+            <span class="text-sm font-medium">75%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5">
+            <div class="main-bg h-2.5 rounded-full" style="width: 75%"></div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="flex flex-col w-11/12">
+          <div class="flex justify-between mb-1">
+            <span class="text-base font-medium">Design Consultant</span>
+            <span class="text-sm font-medium">85%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5">
+            <div class="main-bg h-2.5 rounded-full" style="width: 85%"></div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="flex flex-col w-11/12">
+          <div class="flex justify-between mb-1">
+            <span class="text-base font-medium">Deliver Business</span>
+            <span class="text-sm font-medium">68%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5">
+            <div class="main-bg h-2.5 rounded-full" style="width: 68%"></div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="flex flex-col w-11/12">
+          <div class="flex justify-between mb-1">
+            <span class="text-base font-medium">Field Manager</span>
+            <span class="text-sm font-medium">80%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5">
+            <div class="main-bg h-2.5 rounded-full" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Our Team -->
+
+     <!-- Join -->
+     <section class="w-screen h-screen join">
+      <div class="w-full h-full top-0 left-0 gap-10 flex flex-col justify-center items-center">
+        <div class="w-1/2 flex flex-col items-center justify-center">
+          <p class="text-xs font-light text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">HOW WE CAN HELP?</p>
+          <h1 class="w-4/6 text-3xl font-medium text-center">Elaborate your Company style Grow up Your Business</h1>
+        </div>
+        <div class="w-1/2 h-1/2 z-30 shadow-lg border border-spacing-1 flex bg-white rounded-sm">
+          <div class="w-1/3 h-full bg-black">
+            <img src="./assets/img/joyce-busola-L9U5UUScnHY-unsplash.jpg" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="w-2/3 h-full flex flex-col py-10 gap-10 px-10">
+            <div class="">
+              <p class="text-xs font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 mb-2">REQUEST A CALLBACK</p>
+              <h4 class="text-2xl font-bold">Professional Solution</h4>
+            </div>
+            <div class="w-full">
+              <form class="w-full flex flex-col items-center gap-3">
+                <div class="w-full">
+                  <label class="block">
+                    <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-sm sm:text-sm focus:ring-1" placeholder="name" />
+                  </label>
+                </div>
+                <div class="w-full flex gap-5">
+                  <label class="w-1/2">
+                    <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-sm sm:text-sm focus:ring-1" placeholder="Phone Number" />
+                  </label>
+                  <label class="w-1/2">
+                    <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-sm sm:text-sm focus:ring-1" placeholder="email" />
+                  </label>
+                </div>
+                <div class="main-bg w-full py-3 px-4 rounded-sm mt-5 flex justify-center items-center">
+                  <button class="text-white font-medium text-center w-full h-full">Submit Now</button>
+                </div>
+              </form>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+     </section>
+     <!-- Join -->
+
+     <section class="w-screen h-screen flex justify-center items-center">
+      <div class="w-2/3 h-2/3 flex">
+        <div class="w-1/2 h-full mb-4 px-5">
+          <div class="flex flex-col gap-4">
+            <p class="text-sm text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-700 mb-2 font-medium"># KNOW OUR BUSINESS</p>
+            <h3 class="text-4xl font-bold">IT Consulting Services for your Business</h3>
+            <p class="font-light">We craft unique digital experiences. With more than 7 years of expertise we design We craft unique digital experiences.</p>
+          </div>
+          <!-- faq -->
+          <div class="w-full mt-10 flex flex-col gap-2">
+            <div id="accordion1" onclick="handleAccordion1()">
+              <div id="accordion1-header" class="main-bg text-white py-3 px-3">
+                <button class="flex justify-between items-center w-full">
+                  <span>Keep Your Business Safe & Ensure</span>
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                  </span>
+                </button>
+              </div>
+              <div id="accordion1-items" class="py-3 px-3 border border-gray-100 paraph hidden">
+                <p class="text-sm">We craft unique digital experiences. With more than 7 years of expertise we design We craft unique digital experiences.</p>
+              </div>
+            </div>
+            <div id="accordion2" onclick="handleAccordion2()">
+              <div id="accordion2-header" class="main-bg text-white py-3 px-3">
+                <button class="flex justify-between items-center w-full">
+                  <span>Digital solution for your startup agency</span>
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                  </span>
+                </button>
+              </div>
+              <div id="accordion2-items" class="py-3 px-3 border border-gray-100 paraph hidden">
+                <p class="text-sm">We craft unique digital experiences. With more than 7 years of expertise we design We craft unique digital experiences.</p>
+              </div>
+            </div>
+            <div id="accordion3" onclick="handleAccordion3()">
+              <div id="accordion3-header" class="main-bg text-white py-3 px-3">
+                <button class="flex justify-between items-center w-full">
+                  <span>Infrastructure Capacity Planning</span>
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                  </span>
+                </button>
+              </div>
+              <div id="accordion3-items" class="py-3 px-3 border border-gray-100 paraph hidden">
+                <p class="text-sm">We craft unique digital experiences. With more than 7 years of expertise we design We craft unique digital experiences.</p>
+              </div>
+            </div>
+            
+          </div>
+          <!-- faq -->
+        </div>
+        <div class="w-1/2 h-full">
+          <div class="w-full h-[95%]">
+            <img src="./assets/img/docusign-7RWBSYA9Rro-unsplash.jpg" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="mt-2 flex justify-center">
+            <p class="text-sm">Learn more about our success stories.</p>
+            <p class="text-sm text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-700 mb-2 hover:cursor-pointer">Video showcase.</p>
+          </div>
+        </div>
+      </div>
+     </section>
+     <footer class="relative h-96 w-full">
+      <div class="absolute top-0 left-0">
+        <img src="./assets/img/Layer-740.png" alt="">
+      </div>
+      <div class="absolute w-full h-full flex justify-center items-center z-30">
+        <div class="h-2/3 w-4/6 text-white grid grid-cols-4 gap-5">
+          <div class="flex flex-col gap-3 h-full justify-center">
+            <h5 class="font-bold">About Us</h5>
+            <p class="text-sm font-light text-white/70">Lorem ipsum dolor sit amet, sectetur adipisicing
+              elit, sed do eiusmod mpor incididunt ut labore et
+              dolore Lorem ipsum dolor sit amet, sectetur
+              adipisicing elit, sed do eiusmod </p>
+              <div class="flex gap-5 mt-3">
+                <img src="./assets/icons/facebook-alt.png" class="w-5 h-5 grayscale hover:grayscale-0" alt="">
+                <img src="./assets/icons/twitter.png" class="w-5 h-5 grayscale hover:grayscale-0" alt="">
+                <img src="./assets/icons/instagram.png" class="w-5 h-5 grayscale hover:grayscale-0" alt="">
+                <img src="./assets/icons/pinterest.png" class="w-5 h-5 grayscale hover:grayscale-0" alt="">
+              </div>
+          </div>
+          <div class="flex flex-col gap-3 h-full justify-center">
+            <h5 class="font-bold">Quick Link</h5>
+            <div class="flex flex-col gap-4">
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Home</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Leadership</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Terms</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Privacy Police</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Licences</a>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 h-full justify-center">
+            <h5 class="font-bold">Contact Info</h5>
+            <div class="flex flex-col gap-4">
+              <p class="font-light text-sm text-white/70"><span class="text-white/80 font-medium">Address: </span>Orange, USA</p>
+              <p class="font-light text-sm text-white/70"><span class="text-white/80 font-medium">Email: </span>example@email.com</p>
+              <p class="font-light text-sm text-white/70"><span class="text-white/80 font-medium">Phone: </span>+880 123 456 789</p>
+              <p class="font-light text-sm text-white/70"><span class="text-white/80 font-medium">Work Time: </span></p>
+              <p class="font-light text-sm text-white/70"><span class="text-white/80 font-medium">Mon-Fri: </span>08:00 - 16:00</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 h-full justify-center">
+            <h5 class="font-bold">Solutions</h5>
+            <div class="flex flex-col gap-4">
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Home</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Leadership</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Terms</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Privacy Police</a>
+              <a class="font-light text-sm text-white/70 hover:cursor-pointer">Licences</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </footer>
+     
+     <script src="./index.js"></script>
+  </body>
+</html>
