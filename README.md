@@ -16,3 +16,7 @@ I got this beautiful design from envato element build by Mexopixel Inc.
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> 
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="30" height="30"/> </a>
 </span>
+
+## Link Deploy in Firebase
+
+https://example-company-profile-9e180.web.app/
